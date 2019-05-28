@@ -383,7 +383,7 @@ h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(6, 12, 34, 0.9);
+  background: #000000;
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -413,7 +413,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #f82249;
+  color: #cca934;
 }
 
 #mobile-nav ul li li {
@@ -444,7 +444,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   display: none;
 }
 
@@ -796,6 +796,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule {
   padding: 60px 0 60px 0;
+  background: #000000;
 }
 
 #schedule .nav-tabs {
@@ -877,14 +878,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule .schedule-item h4 span {
   font-style: italic;
-  color: #19328e;
+  color: #fff;
   font-weight: normal;
   font-size: 16px;
 }
 
 #schedule .schedule-item p {
   font-style: italic;
-  color: #152b79;
+  color: #fff;
   margin-bottom: 0;
 }
 
@@ -894,6 +895,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #hotels {
   padding: 60px 0;
+  background: #000000;
 }
 
 #hotels .hotel {
@@ -943,7 +945,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #hotels p {
   padding: 0 20px;
   margin-bottom: 20px;
-  color: #060c22;
+  color: #fff;
   font-style: italic;
   font-size: 15px;
 }
@@ -955,6 +957,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #organizers {
   padding: 60px 0;
+  background: #000000;
 }
 
 #organizers .hotel {
@@ -1004,7 +1007,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #organizers p {
   padding: 0 20px;
   margin-bottom: 20px;
-  color: #060c22;
+  color: #fff;
   font-style: italic;
   font-size: 15px;
 }
@@ -1015,6 +1018,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #supporters {
   padding: 60px 0;
+  background: #000000;
 }
 
 #supporters .supporters-wrap {
@@ -1037,7 +1041,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-right: 1px solid #e0e5fa;
   border-bottom: 1px solid #e0e5fa;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 1);
   height: 160px;
 }
 
@@ -1056,6 +1060,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #buy-tickets {
   padding: 60px 0;
+  background: #000000;
 }
 
 #buy-tickets .card {
@@ -1227,7 +1232,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 991px) {
   #header {
-    background: rgba(6, 12, 34, 0.98);
+    background: rgba(0, 0, 0, 0.98);
     height: 70px;
     padding: 15px 0;
     transition: all 0.5s;
