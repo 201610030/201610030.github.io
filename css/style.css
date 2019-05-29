@@ -1058,6 +1058,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Registration
 --------------------------------------------------------------*/
 
+div.register {
+	height: 300px;
+}
+
 #buy-tickets {
   padding: 60px 0;
   background: #000000;
@@ -1231,6 +1235,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 991px) {
+	div.register {
+	height: 330px;
+	}
+	
   #header {
     background: rgba(0, 0, 0, 0.98);
     height: 70px;
@@ -1264,6 +1272,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 768px) {
+	div.register {
+	height: 330px;
+	}
+	
   .back-to-top {
     bottom: 15px;
   }
@@ -1284,6 +1296,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 574px) {
+	div.register {
+		height: 330px;
+	}
+	
   #venue .venue-info h3 {
     font-size: 24px;
   }
