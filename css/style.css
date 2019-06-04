@@ -696,6 +696,30 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Projects Section
 --------------------------------------------------------------*/
+.modal-body
+{
+    background-color: #000;
+}
+
+.modal-header
+{
+	background-color: #000;
+	border-bottom: 0 none;
+}
+
+.close {
+    color: #cca934; 
+    opacity: 1;
+	
+	float: right;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1;
+	color: #cca934;
+	text-shadow: 0 0px 0 #cca934;
+	filter: alpha(opacity=20);
+	opacity: 1;
+}
 
 #speakers {
   padding: 60px 0 30px 0;
@@ -708,7 +732,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details {
-  background: rgba(6, 12, 34, 0.76);
+  background: rgba(0, 0, 0, 0.76);
   position: absolute;
   left: 0;
   bottom: -30px;
@@ -844,13 +868,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: background-color ease-in-out 0.3s;
 }
 
-#schedule .schedule-item:hover {
+/* #schedule .schedule-item:hover {
   background-color: #fff;
-}
+} */
 
 #schedule .schedule-item time {
   padding-bottom: 5px;
   display: inline-block;
+  color: #fff;
+  font-size: 14px;
 }
 
 #schedule .schedule-item .speaker {
@@ -889,10 +915,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
+#schedule p {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-style: italic;
+  font-size: 15px;
+}
+
 /*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
-
 #hotels {
   padding: 60px 0;
   background: #000000;
@@ -923,14 +956,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 20px;
   margin-bottom: 5px;
   padding: 0 20px;
+  
 }
 
 #hotels a {
-  color: #152b79;
+  color: #000000;
 }
 
 #hotels a:hover {
-  color: #f82249;
+  color: #cca934;
 }
 
 #hotels .stars {
@@ -949,7 +983,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-style: italic;
   font-size: 15px;
 }
-
 
 /*--------------------------------------------------------------
 # Organizers Section
@@ -985,14 +1018,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 20px;
   margin-bottom: 5px;
   padding: 0 20px;
+  text-align: center;
 }
 
 #organizers a {
-  color: #152b79;
+  color: #000000;
 }
 
 #organizers a:hover {
-  color: #f82249;
+  color: #ffc31d;
 }
 
 #organizers .stars {
