@@ -1291,6 +1291,12 @@ div.register {
   #intro .intro-container {
     top: 70px;
   }
+	
+  #intro img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+  }
 
   #intro h1 {
     font-size: 34px;
