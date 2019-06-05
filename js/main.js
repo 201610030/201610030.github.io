@@ -1,5 +1,7 @@
 jQuery(document).ready(function( $ ) {
 
+$('.modal-dialog').parent().on('show.bs.modal', function(e){ $(e.relatedTarget.attributes['data-target'].value).appendTo('body'); })
+
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {

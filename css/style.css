@@ -699,22 +699,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 .modal-body
 {
     background-color: #000;
+    color: #fff;
+    width: 500px;
 }
 
 .modal-header
 {
 	background-color: #000;
 	border-bottom: 0 none;
+  width: 500px;
 }
 
-.modal-backdrop {
-  z-index: 0;
+/*.modal-backdrop {
+  z-index: -1;
 }
-
+*/
 .close {
-    color: #cca934; 
-    opacity: 1;
-	
 	float: right;
 	font-size: 30px;
 	font-weight: 700;
@@ -1060,8 +1060,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #supporters .supporters-wrap {
-  border-top: 1px solid #e0e5fa;
-  border-left: 1px solid #e0e5fa;
   margin-bottom: 30px;
 }
 
