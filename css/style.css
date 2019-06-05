@@ -707,6 +707,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 	border-bottom: 0 none;
 }
 
+.modal-backdrop {
+  z-index: 0;
+}
+
 .close {
     color: #cca934; 
     opacity: 1;
